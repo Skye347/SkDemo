@@ -1,0 +1,18 @@
+FIRST LOG WRITING[SK]
+testing
+[2014-11-30 11:17:26pm] -----Demo building-----Sk is learning-----Log v0.1
+[2014-11-30 11:18:16pm] -----Demo building-----Sk is learning-----无反馈 测试中文
+[2014-11-30 11:18:33pm] -----Demo building-----Sk is learning-----中文测试通过
+[2014-11-30 11:19:10pm] -----Demo building-----Sk is learning-----无法自动记录
+[2014-12-01 05:16:13pm] -----Demo building-----Sk is learning-----
+[2014-12-01 05:16:42pm] -----Demo building-----Sk is learning-----测试反馈
+[2014-12-01 05:17:12pm] -----Demo building-----Sk is learning-----message为空时fwrite返回failure
+[2014-12-01 05:21:02pm] -----Demo building-----Sk is learning-----delay automatic logging
+[2014-12-03 02:38:46pm] -----Demo building-----Sk is learning-----上传文件DEMO test1
+[2014-12-03 02:39:10pm] -----Demo building-----Sk is learning-----上传文件DEMO test1
+[2014-12-03 03:05:25pm] -----Demo building-----Sk is learning-----上传文件 test2 日志功能
+[2014-12-03 04:08:22pm] -----Demo building-----Sk is learning-----file exist module error
+[2014-12-04 11:22:05pm] -----Demo building-----Sk is learning-----PHP ERROR
+[2014-12-04 11:22:21pm] -----Demo building-----Sk is learning-----UPLOAD.PHP ERROR
+[2014-12-07 01:39:31am] -----Demo building-----Sk is learning-----fileupload file type check +
+[2014-12-07 10:13:04pm] -----Demo building-----Sk is learning-----fileupload update blacklist

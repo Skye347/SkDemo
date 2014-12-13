@@ -1,0 +1,56 @@
+[2014-12-03 03:05:31pm] -----Uploading Demo building----------
+NAME:5ab5c9ea15ce36d3e975adf138f33a87e850b1f9.jpg
+SIZE:59269
+TYPE:image/jpeg
+[2014-12-03 04:17:38pm] -----Uploading Demo building----------
+NAME:1013916ww4vt0_b.jpg
+SIZE:42371kb
+TYPE:image/jpeg
+[2014-12-03 04:19:52pm] -----Uploading Demo building----------
+NAME:3CTXJ139V9AUAZ8321.jpg
+SIZE:20586kb
+TYPE:image/jpeg
+[2014-12-03 04:20:32pm] -----Uploading Demo building----------
+NAME:1269501676903.jpg
+SIZE:875609kb
+TYPE:image/jpeg
+[2014-12-03 04:21:24pm] -----Uploading Demo building----------
+NAME:3CTXJ139V9AUAZ8321.jpg
+SIZE:20586kb
+TYPE:image/jpeg
+Uploading successed.
+[2014-12-03 04:39:00pm] -----Uploading Demo building----------
+NAME:1013916ww4vt0_b.jpg
+SIZE:42371kb
+TYPE:image/jpeg
+Uploading failed:File has already exists.
+[2014-12-03 04:39:11pm] -----Uploading Demo building----------
+NAME:So.docx
+SIZE:14345kb
+TYPE:application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Uploading failed:File type is not allowed.
+[2014-12-03 04:45:41pm] -----Uploading Demo building----------
+NAME:class.py
+SIZE:234kb
+TYPE:text/plain
+Uploading failed:File type is not allowed.
+[2014-12-04 11:33:05pm] -----Uploading Demo building----------
+NAME:
+SIZE:kb
+TYPE:
+Uploading failed:File has already exists.
+[2014-12-04 11:33:30pm] -----Uploading Demo building----------
+NAME:
+SIZE:kb
+TYPE:
+Uploading failed:File has already exists.
+[2014-12-04 11:34:30pm] -----Uploading Demo building----------
+NAME:QQ图片20141125000153.png
+SIZE:924594kb
+TYPE:image/png
+Uploading failed:File type is not allowed.
+[2014-12-04 11:35:18pm] -----Uploading Demo building----------
+NAME:fsi-634010.jpg
+SIZE:75082kb
+TYPE:image/jpeg
+Uploading failed:File is out of size.
