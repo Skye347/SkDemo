@@ -4,7 +4,7 @@ $enter="\r\n";
 $logwriting="[".date("Y-m-d h:i:sa")."] -----Uploading Demo building----------";
 $file=fopen("upload_log.txt","a");
 
-function writelog_s()
+function writelog_s($file,$logwriting,$enter)
 {
     echo "NAME:".$_FILES["file"]["name"]."<br>";
     echo "SIZE:".$_FILES["file"]["size"]."<br>";
@@ -47,7 +47,7 @@ function typecheck_m2()
         
     $temp=$_FILES["file"]["name"];
     //black position
-
+    $allow_type_array=array(".jpg",".jpeg",".gif","png");
     $not_allow_type_array=array(".php",".txt",".asp");
     $id=0;
     $count_tmp=count($not_allow_type_array);
@@ -58,11 +58,11 @@ function typecheck_m2()
     }
 
     if($id){
-        echo "typecheck blacklist denied<br>";
-        return 0;
+        return 1;
     }
     else{
-        return 1;
+        echo "typecheck whitelist denied<br>";
+        return 0;
     }
     }
 }
@@ -77,7 +77,7 @@ function sizecheck($size)
     }
 }
 
-function writelog_m1($message)
+function writelog_m1($message,$file,$enter)
 {
     echo "$message.<br>";
     fwrite($file,$message);
@@ -87,23 +87,23 @@ function writelog_m1($message)
 if($_FILES["file"]["error"]==0)
 {
     //write log
-    writelog_s();
+    writelog_s($file,$logwriting,$enter);
     if(file_exists("upload/".$_FILES["file"]["name"])){//existence error
-        writelog_m1("Upload failed:File has already existed.<br>");
+        writelog_m1("Upload failed:File has already existed.<br>",$file,$enter);
     }
     elseif(typecheck_m2()){
         if(sizecheck(2000000)){//upload success
         move_uploaded_file($_FILES["file"]["tmp_name"],"upload/".$_FILES["file"]["name"]);
-        writelog_m1("Upload successed.<br>");
+        writelog_m1("Upload successed.<br>",$file,$enter);
         }
         else{
         //size error    
-        writelog_m1("Upload failed:File is out of size.<br>");
+        writelog_m1("Upload failed:File is out of size.<br>",$file,$enter);
         }
     }
     else{
        //type error
-       writelog_m1("Upload failed:File type is not allowed.<br>");
+       writelog_m1("Upload failed:File type is not allowed.<br>",$file,$enter);
     }
 }
 else{
