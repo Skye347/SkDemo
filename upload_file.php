@@ -1,5 +1,8 @@
 <?php
-
+/*
+upload_file v0.1
+with whitelist check
+*/
 $enter="\r\n";
 $logwriting="[".date("Y-m-d h:i:sa")."] -----Uploading Demo building----------";
 $file=fopen("upload_log.txt","a");
